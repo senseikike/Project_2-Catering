@@ -1,0 +1,348 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* ------------------------------------------------------ */
+/* PRIMERA LISTA */
+/* ------------------------------------------------------ */
+
+.lista1 {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    margin-right: 25px;
+    font-family: "Roboto Light";
+}
+
+.lista1 li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.lista1 li a:visited {
+    color: black;
+}
+
+.lista1 li a:hover {
+    font-weight: 700;
+}
+
+/* ------------------------------------------------------ */
+/* SEGUNDA LISTA */
+/* ------------------------------------------------------ */
+
+.lista2 {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    font-family: "Roboto Light";
+}
+
+.lista2 li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.lista2 li a:visited {
+    color: black;
+}
+
+.lista2 li a:hover {
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------------------ */
+
+h1 {
+    font-family: "Roboto Light";
+    font-size: 48px;
+    position: absolute;
+    font-weight: 600;
+}
+
+.presu {
+    font-family: "Roboto Light";
+    font-size: 36px;
+    margin-top: 130px;
+    font-weight: lighter;
+}
+
+/* ------------------------------------------------------ */
+/* FORMULARIO */
+/* ------------------------------------------------------ */
+
+fieldset {
+    border: none;
+}
+
+form .form {
+    font-family: "Roboto";
+}
+
+form ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form ul li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    gap: 5px
+}
+
+span {
+    color: gray;
+}
+
+input {
+    height: 25px;
+    background-color: #ececec;
+    border: none;
+}
+
+textarea {
+    height: 194px;
+    background-color: #ececec;
+    border: none;
+}
+
+.box div {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.box div input {
+    accent-color: #ececec;
+    width: 22px;
+    height: 22px;
+}
+
+.box div label {
+    margin-top: 7px;
+}
+
+.box div a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.box div a:visited {
+    color: black;
+}
+
+.box div a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact button {
+    background-color: #069697;
+    border: none;
+    width: 175px;
+    height: 36px;
+    font-size: 14px;
+    color: white;
+}
+
+/* ------------------------------------------------------ */
+/* SECTION */
+/* ------------------------------------------------------ */
+.menu {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Light"; 
+    margin-top: 50px;
+    font-size: 48px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+section article {
+    width: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article div {
+    display: flex;
+    justify-content: center;
+}
+
+/* PRIMER ARTICLE */
+
+
+.empresa img {
+    height: 255px;
+    mask-image: url(../elipse/Ellipse\ 2@3x.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+
+.empresa h3{
+    font-family: "Roboto Light";
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+}
+
+.empresa p {
+    background-color: #069697;
+    width: 102px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empresa p:hover {
+    background-color: black;
+}
+
+.empresa a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Light";
+    font-size: 14px;
+}
+
+
+/* SEGUNDO ARTICLE */
+.celebraciones img {
+    height: 255px;
+    mask-image: url(../elipse/Ellipse\ 2@3x.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+
+.celebraciones h3{
+    font-family: "Roboto Light";
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+}
+
+.celebraciones p {
+    background-color: #069697;
+    width: 102px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.celebraciones p:hover {
+    background-color: black;
+}
+
+.celebraciones a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Light";
+    font-size: 14px;
+}
+
+
+
+
+/* TERCER ARTICULO */
+.escuela img {
+    height: 255px;
+    mask-image: url(../elipse/Ellipse\ 2@3x.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+}
+
+.escuela h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto Light";
+    display: flex;
+    font-size: 34px;
+}
+
+.escuela p {
+    background-color: #069697;
+    width: 102px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escuela p:hover {
+    background-color: black;
+}
+
+.escuela a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Light";
+    font-size: 14px;
+}
+
+
+
+/* __________________________________________________ */
+/* FOOTER */
+/* __________________________________________________ */
+footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 205px;
+    font-family: "Roboto Light";
+}
+
+.icons img {
+    width: 45px;
+    height: 44px;
+    filter: invert(100%);
+    margin-right: 40px;
+}
+
+
+
+footer .first .cuatro img {
+    width: 45px;
+    height: 44px;
+    filter: invert(100%);
+}
+
+
+
+footer .first a {
+    color: white;
+}
+ footer .second a {
+    color: white;
+ }
+
+
+

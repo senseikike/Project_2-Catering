@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulariocss.css">
+    <link rel="stylesheet" href="css/formulario_queris.css">
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <picture class="logo">
+                <img src="logo/FC-logo-horizontal.svg" alt="logo">
+            </picture>
+            <picture class="logo_mv">
+                <img src="logo/FC-logo-isotipo.svg" alt="logo_movil">
+            </picture>
+            <div class="barras" id="boton">
+                <img src="icons/bars-solid.svg" alt="barras">
+            </div>
+        </div>
+        
+        <ul class="lista1">
+            <li><a href="principal.html" tabindex="1">INICIO</a></li>
+            <li><a href="#" tabindex="2">HISTORIA</a></li>
+            <li><a href="menu_empresas.html" tabindex="3">SERVICIOS</a></li>
+            <li><a href="catering_formulario.html" tabindex="4">CONTACTO</a></li>
+        </ul>
+        <div class="menu_13" id="navegacion">
+            <ul class="menu_12">
+                <li><a href="principal.html" tabindex="3">INICIO</a></li>
+                <li><a href="#" tabindex="4">HISTORIA</a></li>
+                <li><a href="menu_empresas.html" tabindex="5">SERVICIOS</a></li>
+                <li><a href="catering_formulario.html" tabindex="6">CONTACTO</a></li>
+            </ul>
+        </div>
+        <ul class="lista2">
+            <li><a href="#" tabindex="5">INICIO</a></li>
+            <li>&#10148;</li>
+            <li><a href="#" tabindex="6">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <header>
+            <h1>Contacto</h1>
+            <h2 class="presu">Solicita presupuesto</h2>
+        </header>
+        <form method="post" enctype="application/x-www-form-urlencoded">
+            <fieldset>
+                <ul class="form">
+                    <li>
+                        <label for="name">Nombre</label>
+                        <input id="name" type="text" tabindex="7">
+                    </li>
+                    <li>
+                        <label for="empresa">Empresa</label>
+                        <input id="empresa" type="text" tabindex="8">
+                    </li>
+                    <li>
+                        <label for="web">Web</label>
+                        <input id="web" type="text" tabindex="9">
+                    </li>
+                    <li>
+                        <label for="aprox">Número de asistentes aproximado <span>(mínimo 20 - máximo 200)</span></label>
+                        <input id="aprox" type="text" placeholder="20" tabindex="10">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail de contacto</label>
+                        <input id="mail" type="email" tabindex="11"> 
+                    </li>
+                    <li>
+                        <label for="msj">Mensaje</label>
+                        <textarea id="msj" tabindex="12"></textarea>
+                    </li>
+                    <li class="box">
+                        <div>
+                           <input id="check" type="checkbox" tabindex="13">
+                           <label for="check">He leído y acepto las <a href="#">políticas de privacidad</a></label>
+                        </div>
+                    </li>
+                </ul>
+            </fieldset>
+            <div class="contact">
+                <button type="submit">CONTACTAR</button>
+            </div>
+        </form>
+        <div class="menu_1">
+            <h2 class="menu">Descubre nuestros menús</h2>
+        </div>
+        <section>
+            <article class="empresa">
+                <picture>
+                    <img src="img_b/empresa@3x.jpg" alt="empresa">
+                </picture>
+                <h3>Empresas</h3>
+                <div>
+                    <p><a href="#" tabindex="14">Ver menú</a></p>
+                </div>
+            </article>
+            <article class="celebraciones">
+                <picture>
+                    <img src="img_b/celebracion@3x.png" alt="celebraciones">
+                </picture>
+                <h3>Celebraciones</h3>
+                <div>
+                    <p><a href="#" tabindex="15">Ver menú</a></p>
+                </div>
+            </article>
+            <article class="escuela">
+                <picture>
+                    <img src="img_b/foto-escuelas@3x.png" alt="escuela">
+                </picture>
+                <h3>Escuela</h3>
+                <div>
+                    <p><a href="#" tabindex="16">Ver menú</a></p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <ul class="first">
+            <li class="uno">
+                <a href="#" tabindex="17">© 2020 - Fartera Catering.</a>
+            </li>
+            <li class="dos">
+                <a href="#" tabindex="18">C/ Llacuna 162, 08018 Barcelona.</a>
+            </li>
+            <li class="tres">
+                <a href="#" tabindex="19">Telf.: 93 542 65 65</a>
+            </li>
+        </ul>
+        <div class="icons">
+            <a href="#" tabindex="20"><img src="icons/twitter-square-brands.svg" alt="twitter"></a>
+            <a href="#" target="21" tabindex="21"><img src="icons/instagram-square-brands.svg" alt="instagram"></a>
+            <a href="#" tabindex="22"><img src="icons/facebook-square-brands.svg" alt="facebook"></a>
+        </div>
+        <ul class="second">
+            <li class="uno_1">
+                <a href="#" tabindex="23">Aviso legal</a>
+            </li>
+            <li class="dos_2">
+                <a href="#" tabindex="24">Política de privacidad</a>
+            </li>
+            <li class="tres_3">
+                <a href="#">Política de cookies</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>
